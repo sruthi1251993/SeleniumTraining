@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="testFacebook.Listeners" />
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="testFacebook.LoginPage" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="RegisterpageTest">
+		<classes>
+			<class name="testFacebook.RegisterPage" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="ForgotpswdTest">
+		<classes>
+			<class name="testFacebook.ForgotPswrdPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

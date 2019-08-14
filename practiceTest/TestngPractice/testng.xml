@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test">
+  <parameter name="welcome" value="hi user" />
+    <classes>
+      <class name="sampleTests.Annotations"/>
+      <class name="sampleTests.FirstTestng"/>
+      <class name="sampleTests.Annot2"/>
+      <class name="sampleTests.Testgroups"/>
+      <class name="sampleTests.DependsOnMethodsTimeOutEnable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
